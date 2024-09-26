@@ -398,3 +398,84 @@ footer {
     width: 100%;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	
+    .navbar nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-image, .about-text {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .progress {
+        width: 70%;
+    }
+
+
+    .education-experience {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .education, .experience {
+        width: 45%;
+        text-align: left;
+    }
+
+
+    .contact form {
+        width: 80%;
+    }
+
+    .contact-info {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .navbar nav ul {
+        flex-direction: row;
+    }
+
+    .intro {
+        flex-direction: row;
+    }
+
+    .intro-text {
+        text-align: left;
+        margin-top: 180px;
+    }
+
+    .about-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-image, .about-text {
+        width: 50%;
+    }
+
+    .progress {
+        width: 50%;
+    }
+
+    .education-experience {
+        flex-direction: row;
+    }
+
+    .contact form {
+        width: 50%;
+    }
+}
